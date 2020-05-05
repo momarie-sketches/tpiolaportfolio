@@ -1,6 +1,8 @@
 .header {
-    color: blue;
+    color: black;
     text-align: center;
+    font-size: 6em;
+    margin: 0.25em;
 }
 body {
     width: 77em;
@@ -13,18 +15,75 @@ nav {
     padding: 40px 0px;
     background: #ffecd2;
 }
+nav a {
+    background: #8acae8;
+    border: 0.3em solid #8acae8;
+    border-radius: 9px;
+    color: white;
+    margin: 1em;
+}
 img {
-    max-width: 77em;
+    max-width: 61em;
+    max-height: 91em;
     text-align: center;
 }
 div {
     text-align: center;
     margin: 10em auto;
 }
+.bluetarantula {
+    text-align: center;
+    margin: 3em auto 10em;
+}
 footer {
-    margin: 11em auto;
+    margin: 11em auto 0em;
 }
 .bluetarantula h2 {
-    background-color: #2b718773;
-    width: 70em;
+    background-color: #0e153529;
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 0em;
+    margin: 0em 5em;
+}
+.americanstar h2 {
+    background-color: #0c13825c;
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 0em;
+    margin: 0em 5em;
+}
+.lily h2 {
+    background-color: #d4405452;
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 0em;
+    margin: 0em 5em;
+}
+.devorah h2 {
+    background-color: #2e727969;
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 0em;
+    margin: 0em 5em;
+}
+.odnatamyaradtiys h2 {
+    background-color: #99a5aeb3;
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 0em;
+    margin: 0em 5em;
+}
+.pink h2 {
+    background-color: #f19fb675;
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 0em;
+    margin: 0em 5em;
+}
+.yellow h2 {
+    background-color: #efae3852;
+    color: black;
+    padding: 1em 1.5em;
+    border-radius: 0em;
+    margin: 0em 5em;
 }
