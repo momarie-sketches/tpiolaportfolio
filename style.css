@@ -2,32 +2,29 @@
     color: blue;
     text-align: center;
 }
-
 body {
     width: 77em;
-    padding: 1em;
+    padding: 2em;
     border: 20px solid lightblue;
 }
-
 nav {
     text-align: center;
     font-size: 2em;
     padding: 40px 0px;
     background: #ffecd2;
 }
-
 img {
     max-width: 77em;
     text-align: center;
 }
-
 div {
     text-align: center;
+    margin: 10em auto;
 }
-
-
-
-
-
-
-
+footer {
+    margin: 11em auto;
+}
+.bluetarantula h2 {
+    background-color: #2b718773;
+    width: 70em;
+}
