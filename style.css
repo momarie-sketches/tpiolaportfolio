@@ -7,8 +7,8 @@
 body {
     width: 77em;
     padding: 2em;
-    border: 20px solid lightblue;
-    margin: auto;
+    border: 2em solid lightblue;
+    margin: 0em;
 }
 nav {
     text-align: center;
