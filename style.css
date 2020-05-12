@@ -12,7 +12,7 @@ body {
 }
 nav {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     padding: 40px 0px;
     background: #ffecd2;
 }
@@ -26,7 +26,7 @@ nav a {
 img {
     max-width: 61em;
     max-height: 91em;
-    text-align: center;
+
 }
 div {
     text-align: center;
@@ -35,6 +35,14 @@ div {
 .aboutme {
     text-align: center;
     margin: 3em auto 10em;
+}
+.aboutme h4 {
+    margin: 2em;
+    font-size: 2em;
+}
+.aboutme h2 {
+    font-size: 4em;
+    margin: 1em;
 }
 .bluetarantula {
     text-align: center;
@@ -103,12 +111,12 @@ footer p {
     margin: 0em 5em;
     font-size: 1.97em;
 }
-.socials {
+.socialmedia {
     text-align: center;
     font-size: 2em;
     margin: 4em;
 }
-.socials a {
+.socialmedia a {
     background: #8acae8;
     border: 0.6em solid #8acae8;
     border-radius: 9px;
@@ -117,4 +125,7 @@ footer p {
 }
 .contacttext {
     margin: 7em;
+}
+.profileimage {
+    width: 22rem;
 }
