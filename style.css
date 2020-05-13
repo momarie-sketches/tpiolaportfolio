@@ -33,7 +33,7 @@ div {
 }
 .aboutme {
     text-align: center;
-    margin: 3rem auto 10rem;
+    margin: 5rem auto 7rem;
 }
 .aboutme h4 {
     margin: 2rem;
@@ -44,7 +44,6 @@ div {
     margin: 1rem;
 }
 .bluetarantula {
-    text-align: center;
     margin: 3rem auto 10rem;
 }
 footer {
@@ -53,6 +52,34 @@ footer {
 footer p {
     font-size: 1rem;
 }
+.bluetarantula h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+.americanstar h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+.lily h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+.devorah h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+.odnatamyaradtiys h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+.pink h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+.yellow h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
 .bluetarantula h2 {
     background-color: #0e153529;
     color: black;
@@ -60,7 +87,6 @@ footer p {
     margin: 0rem 5rem;
     font-size: 1.97rem;
 }
-
 .americanstar h2 {
     background-color: #0c13825c;
     color: black;
@@ -127,7 +153,7 @@ footer p {
 .socialmedia {
     text-align: center;
     font-size: 2rem;
-    margin: 4rem;
+    margin: 4rem auto 7rem;
 }
 .socialmedia a {
     background: #8acae8;
@@ -137,8 +163,5 @@ footer p {
     margin: 3rem;
 }
 .contacttext {
-    margin: 7rem;
-}
-.profileimage {
-    width: 22rem;
+    margin: 5rem auto 3rem;
 }
