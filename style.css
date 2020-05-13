@@ -33,7 +33,7 @@ div {
 }
 .aboutme {
     text-align: center;
-    margin: 5rem auto 7rem;
+    margin: 5rem 3.5rem 7rem;
 }
 .aboutme h4 {
     margin: 2rem;
@@ -163,5 +163,8 @@ footer p {
     margin: 3rem;
 }
 .contacttext {
-    margin: 5rem auto 3rem;
+    margin: 5rem 3.5rem 7rem;
+}
+.contacttext h3 {
+    font-size: 2rem;
 }
