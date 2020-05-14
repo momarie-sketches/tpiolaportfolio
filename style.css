@@ -202,7 +202,7 @@ footer p {
 }
 .socialmedia {
     text-align: center;
-    font-size: 1rem;
+    
     margin: 4rem auto 7rem;
 }
 .socialmedia a {
@@ -212,6 +212,7 @@ footer p {
     color: white;
     margin: 3rem;
     font-family: "Lato2", sans-serif;
+    font-size: 2rem;
 }
 .contacttext {
     margin: 5rem 3.5rem 7rem;
