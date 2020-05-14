@@ -1,8 +1,45 @@
+/* latin */
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Fredoka One'), local('FredokaOne-Regular'), url(https://fonts.gstatic.com/s/fredokaone/v7/k3kUo8kEI-tA1RRcTZGmTlHGCaen8wf-.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+@font-face {
+    font-family: 'Lato2';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v14/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03Sup6hNX6plRP.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 .header {
     color: black;
     text-align: center;
     font-size: 6rem;
     margin: 0.25rem;
+    font-family: "Dancing Script", cursive;
 }
 body {
     padding: 2rem;
@@ -11,16 +48,17 @@ body {
 }
 nav {
     text-align: center;
-    font-size: 3rem;
     padding: 2rem;
     background: #ffecd2;
 }
 nav a {
     background: #8acae8;
-    border: 0.3erm solid #8acae8;
+    border: 0.3rem solid #8acae8;
     border-radius: 9px;
     color: white;
     margin: 1rem;
+    font-size: 3rem;
+    font-family: "Lato2", sans-serif;
 }
 img {
     max-width: 61rem;
@@ -36,12 +74,10 @@ div {
     margin: 5rem 3.5rem 7rem;
 }
 .aboutme h4 {
-    margin: 2rem;
+    margin: 3rem;
     font-size: 2rem;
-}
-.aboutme h2 {
-    font-size: 4rem;
-    margin: 1rem;
+    font-family: "Fredoka One", cursive;
+    letter-spacing: 0.1rem;
 }
 .bluetarantula {
     margin: 3rem auto 10rem;
@@ -55,79 +91,93 @@ footer p {
 .bluetarantula h1 {
     font-size: 3.5rem;
     margin: 1.5rem;
+    font-family: "Fredoka One", cursive;
 }
 .americanstar h1 {
     font-size: 3.5rem;
     margin: 1.5rem;
+    font-family: "Fredoka One", cursive;
 }
 .lily h1 {
     font-size: 3.5rem;
     margin: 1.5rem;
+    font-family: "Fredoka One", cursive;
 }
 .devorah h1 {
     font-size: 3.5rem;
     margin: 1.5rem;
+    font-family: "Fredoka One", cursive;
 }
 .odnatamyaradtiys h1 {
     font-size: 3.5rem;
     margin: 1.5rem;
+    font-family: "Fredoka One", cursive;
 }
 .pink h1 {
     font-size: 3.5rem;
     margin: 1.5rem;
+    font-family: "Fredoka One", cursive;
 }
 .yellow h1 {
     font-size: 3.5rem;
     margin: 1.5rem;
+    font-family: "Fredoka One", cursive;
 }
 .bluetarantula h2 {
     background-color: #0e153529;
     color: black;
     padding: 1rem 1.5rem;
     margin: 0rem 5rem;
-    font-size: 1.97rem;
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
 }
 .americanstar h2 {
     background-color: #0c13825c;
     color: black;
     padding: 1rem 1.5rem;
     margin: 0rem 5rem;
-    font-size: 1.97rem;
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
 }
 .lily h2 {
     background-color: #d4405452;
     color: black;
     padding: 1rem 1.5rem;
     margin: 0rem 5rem;
-    font-size: 1.97rem;
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
 }
 .devorah h2 {
     background-color: #2e727969;
     color: black;
     padding: 1rem 1.5rem;
     margin: 0rem 5rem;
-    font-size: 1.97rem;
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
 }
 .odnatamyaradtiys h2 {
     background-color: #99a5aeb3;
     color: black;
     padding: 1rem 1.5rem;
     margin: 0rem 5rem;
-    font-size: 1.97rem;
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
 }
 .pink h2 {
     background-color: #f19fb675;
     color: black;
     padding: 1rem 1.5rem;
     margin: 0rem 5rem;
-    font-size: 1.97rem;
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
 }
 .yellow h2 {
     background-color: #efae3852;
     color: black;
     padding: 1rem 1.5rem;
     margin: 0rem 5rem;
-    font-size: 1.97rem;
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
 }
 .bluetarantula img {
     width: 53rem;
@@ -152,7 +202,7 @@ footer p {
 }
 .socialmedia {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 4rem auto 7rem;
 }
 .socialmedia a {
@@ -161,10 +211,14 @@ footer p {
     border-radius: 9px;
     color: white;
     margin: 3rem;
+    font-family: "Lato2", sans-serif;
 }
 .contacttext {
     margin: 5rem 3.5rem 7rem;
 }
 .contacttext h3 {
+    margin: 3rem;
     font-size: 2rem;
+    font-family: "Fredoka One", cursive;
+    letter-spacing: 0.1rem;
 }
