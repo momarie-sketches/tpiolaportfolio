@@ -71,13 +71,20 @@ div {
 }
 .aboutme {
     text-align: center;
-    margin: 5rem 3.5rem 7rem;
+    margin: 3rem 3.5rem 7rem;
 }
 .aboutme h4 {
     margin: 3rem;
     font-size: 2rem;
     font-family: "Fredoka One", cursive;
     letter-spacing: 0.1rem;
+}
+.tpiolaface {
+    text-align: center;
+    margin: 3rem auto 0rem;
+}
+.tpiolaface img {
+    width: 23rem;
 }
 .bluetarantula {
     margin: 3rem auto 10rem;
