@@ -251,7 +251,7 @@ footer p {
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(388px, 49rem));
+    grid-template-columns: repeat(auto-fit, minmax(388px, 1fr));
     gap: 5rem;
     justify-content: space-evenly;
 }
