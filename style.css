@@ -54,15 +54,15 @@ nav {
     padding: 2rem;
     background: #ffecd2;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 23rem));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 16rem));
     justify-content: space-evenly;
+    gap: 0.5rem;
 }
 nav a {
     background: #8acae8;
     border: 0.8rem solid #8acae8;
     border-radius: 9px;
     color: white;
-    margin: 0.5rem;
     font-size: 3rem;
     font-family: "Lato2", sans-serif;
 }
